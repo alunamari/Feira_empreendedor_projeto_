@@ -1,0 +1,31 @@
+:root {
+--cor-de-fundo:rgb(228, 192, 225);
+--cor-fundo-menu:rgb(139, 94, 94);
+}
+body{
+
+background-color: var(--cor-de-fundo);
+}   
+.cabecalho
+{
+background-color: rgb(228, 163, 206);
+}
+.cabecalho-titulo{
+font-family: 'Nosifer', sans-serif;
+font-size: 56px;
+font-weight: 800;
+padding: 8px;
+text-align:justify;
+}
+.cabecalho-menu{
+background-color: var(--cor-fundo-menu);
+}
+.cabecalho-titulo-menu{
+display: block;
+padding: 9px;
+font-size: medium;
+text-decoration: none;
+color:rgb(83, 56, 37);
+text-align:justify
+
+}
